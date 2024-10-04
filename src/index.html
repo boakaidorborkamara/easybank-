@@ -18,7 +18,9 @@
   <body>
     <!-- header  -->
     <header class="container mx-auto">
-      <nav class="flex justify-between align-middle px-8 py-4 md:px-14">
+      <nav
+        class="flex justify-between relative align-middle px-8 py-4 md:px-14"
+      >
         <!-- logo  -->
         <div class="flex items-center">
           <a href="#">
@@ -34,6 +36,22 @@
           <li class="mx-3 hover:text-lime_green"><a href="">Blog</a></li>
           <li class="mx-3 hover:text-lime_green"><a href="">Careers</a></li>
         </ul>
+
+        <!-- small screen nav btn  -->
+        <div class="md:hidden">
+          <img src="./images/icon-hamburger.svg" alt="" />
+        </div>
+
+        <!-- small screen nav  -->
+        <div class="hidden w-full bg-bright_cyan absolute">
+          <ul class="text-center">
+            <li class="m-3 hover:text-lime_green"><a href="">Home</a></li>
+            <li class="m-3 hover:text-lime_green"><a href="">About</a></li>
+            <li class="m-3 hover:text-lime_green"><a href="">Contact</a></li>
+            <li class="m-3 hover:text-lime_green"><a href="">Blog</a></li>
+            <li class="m-3 hover:text-lime_green"><a href="">Careers</a></li>
+          </ul>
+        </div>
 
         <!-- cta button  -->
         <div class="hidden md:block hover:shadow-lg">
