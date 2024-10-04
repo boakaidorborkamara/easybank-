@@ -19,9 +19,12 @@
     <!-- header  -->
     <header class="container mx-auto">
       <nav class="flex justify-between align-middle px-8 py-4">
+        <!-- logo  -->
         <div class="flex items-center">
           <img src="./images/logo.svg" alt="" />
         </div>
+
+        <!-- nav menu items  -->
         <ul class="hidden md:flex justify-center items-center">
           <li class="mx-3"><a href="">Home</a></li>
           <li class="mx-3"><a href="">About</a></li>
@@ -29,8 +32,10 @@
           <li class="mx-3"><a href="">Blog</a></li>
           <li class="mx-3"><a href="">Careers</a></li>
         </ul>
+
+        <!-- cta button  -->
         <div class="hidden md:block">
-          <button class="bg-lime_green rounded-full py-2 px-4">
+          <button class="bg-lime_green text-white rounded-full py-2 px-4">
             Request Invite
           </button>
         </div>
@@ -40,21 +45,28 @@
     <!-- main  -->
     <main>
       <!-- hero section  -->
-      <section>
-        <div>
-          <h1>Next generation of digital banking</h1>
-          <p>
+      <section class="container mx-auto pl-8 flex justify-between">
+        <!-- hero text  -->
+        <div class="flex flex-col justify-center w-4/12">
+          <h1 class="text-5xl mb-5">Next generation digital banking</h1>
+          <p class="mb-5">
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <div>
-            <button>Request Invite</button>
+          <div class="hidden md:block">
+            <button class="bg-lime_green text-white rounded-full py-2 px-4">
+              Request Invite
+            </button>
           </div>
         </div>
-        <div>
-          <img src="./images/image-mockups.png" alt="" />
-          <img src="./images/bg-intro-desktop.svg" alt="" />
+
+        <!-- hero image  -->
+        <div
+          id="hero-image-container"
+          class="flex flex-col justify-end items-end"
+        >
+          <img src="./images/image-mockups.png" alt="" class="w-5/6" />
         </div>
       </section>
 
