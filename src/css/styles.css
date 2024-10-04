@@ -875,6 +875,10 @@ video {
     text-align: start;
   }
 
+  .md\:text-end {
+    text-align: end;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
