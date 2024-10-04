@@ -21,20 +21,22 @@
       <nav class="flex justify-between align-middle px-8 py-4 md:px-14">
         <!-- logo  -->
         <div class="flex items-center">
-          <img src="./images/logo.svg" alt="" />
+          <a href="#">
+            <img src="./images/logo.svg" alt="" />
+          </a>
         </div>
 
         <!-- nav menu items  -->
         <ul class="hidden md:flex justify-center items-center">
-          <li class="mx-3"><a href="">Home</a></li>
-          <li class="mx-3"><a href="">About</a></li>
-          <li class="mx-3"><a href="">Contact</a></li>
-          <li class="mx-3"><a href="">Blog</a></li>
-          <li class="mx-3"><a href="">Careers</a></li>
+          <li class="mx-3 hover:text-lime_green"><a href="">Home</a></li>
+          <li class="mx-3 hover:text-lime_green"><a href="">About</a></li>
+          <li class="mx-3 hover:text-lime_green"><a href="">Contact</a></li>
+          <li class="mx-3 hover:text-lime_green"><a href="">Blog</a></li>
+          <li class="mx-3 hover:text-lime_green"><a href="">Careers</a></li>
         </ul>
 
         <!-- cta button  -->
-        <div class="hidden md:block">
+        <div class="hidden md:block hover:shadow-lg">
           <button class="bg-lime_green text-white rounded-full py-2 px-4">
             Request Invite
           </button>
@@ -67,7 +69,9 @@
             more.
           </p>
           <div>
-            <button class="bg-lime_green text-white rounded-full py-2 px-4">
+            <button
+              class="bg-lime_green text-white rounded-full py-2 px-4 hover:shadow-lg"
+            >
               Request Invite
             </button>
           </div>
@@ -225,7 +229,7 @@
       <!-- socials  -->
       <div class="mb-5">
         <div class="flex justify-center items-center md:block">
-          <img src="./images/logo.svg" alt="" class="text-white" />
+          <img src="./images/logo.svg" alt="" class="bg-white p-3" />
         </div>
         <div class="flex justify-center items-center mt-10">
           <a href="">
@@ -239,7 +243,7 @@
       </div>
 
       <!-- nav menu items  -->
-      <div class="text-white text-center md:flex justify-between">
+      <div class="text-white text-center md:text-start md:flex justify-between">
         <ul class="mx-11">
           <li class="pb-3"><a href="">About</a></li>
           <li class="pb-3"><a href="">Contact</a></li>
@@ -265,39 +269,14 @@
       </div>
     </footer>
 
-    <!-- 
-
-
-
-  
-
-
-
-
-
-
-  
-
-  
-
- 
-
-  
-
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite
-
-  © Easybank. All Rights Reserved -->
-
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    <div class="attribution text-center p-5">
+      <span class="text-grayish_blue">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >.
+      </span>
+      Coded by <a href="#">Boakai Dorbor Kamara</a>.
+    </div>
   </body>
 </html>
